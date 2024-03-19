@@ -1,0 +1,37 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+
+.AdminNavbar
+{
+    display: flex;
+    justify-content: space-around;
+}
+.AdminNavbar
+{
+    text-decoration: none;
+    font-family: cursive;
+    color: black;
+    margin: 0px 30px;
+}
+
+.AdminNavbar h1{
+    font-style: italic;
+    font-family: cursive;
+    color: crimson;
+    display: flex;
+    justify-content: space-between;
+}
+
+.AdminNavbar span
+{
+    color:beige ;
+}
+
+.options
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

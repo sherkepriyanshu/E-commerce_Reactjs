@@ -1,0 +1,144 @@
+{
+  "Manager": [
+    {
+      "id": "a19e",
+      "name": "priyanshu",
+      "email": "priyanshu@gmail.com",
+      "password": "1234",
+      "phone": "34252523",
+      "profile": "sdfsdfsd"
+    },
+    {
+      "id": "8ab1",
+      "name": "priyanshu",
+      "email": "Priyanshu@gmail.com",
+      "password": "1234",
+      "phone": "7047678768",
+      "profile": "naruti"
+    },
+    {
+      "id": "6f37",
+      "name": "priyanshu",
+      "email": "Priyanshu@gmail.com",
+      "password": "1234",
+      "phone": "7047678768",
+      "profile": "naruti"
+    },
+    {
+      "id": "acb5",
+      "name": "priyanshu",
+      "email": "Priyanshu@gmail.com",
+      "password": "1234",
+      "phone": "7047678768",
+      "profile": "naruti"
+    },
+    {
+      "id": "b694",
+      "name": "priyanshu",
+      "email": "Priyanshu@gmail.com",
+      "password": "1234",
+      "phone": "7047678768",
+      "profile": "naruti"
+    },
+    {
+      "id": "36fb",
+      "name": "himanshu",
+      "email": "Priyanshu@gmail.com",
+      "password": "1234",
+      "phone": "7047678768",
+      "profile": "naruti"
+    },
+    {
+      "id": "2251",
+      "name": "sherke",
+      "email": "priyanshu190310@gmail.com",
+      "password": "12345",
+      "phone": "7047678768",
+      "profile": "lpk"
+    },
+    {
+      "id": "2aa5",
+      "name": "subodeep",
+      "email": "subodeep@gmail.com",
+      "password": "12345",
+      "phone": "1234567890",
+      "profile": "mine"
+    },
+    {
+      "id": "465b",
+      "name": "asif",
+      "email": "Asif@gmail.com",
+      "password": "12345",
+      "phone": "1234567890",
+      "profile": ""
+    }
+  ],
+  "Product": [
+    {
+      "id": "f83c",
+      "category": "",
+      "restaurant": "pizza hut",
+      "name": "pizza",
+      "price": "149",
+      "ratings": "5",
+      "quantity": "1",
+      "description": "PIZZA ORIGIN",
+      "thumbnail": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/2b4f62d606d1b2bfba9ba9e5386fabb7"
+    },
+    {
+      "id": "052d",
+      "category": "Veg",
+      "restaurant": "Boom Sandwich",
+      "name": "INdian meal",
+      "price": "599",
+      "ratings": "5",
+      "quantity": "1",
+      "description": "Snacks,india,mysore road",
+      "thumbnail": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/96aaf72372ad1b0297b7cc304ced7e33"
+    },
+    {
+      "id": "4192",
+      "category": "",
+      "restaurant": "Andhra gunpowder",
+      "name": "biryani",
+      "price": "199",
+      "ratings": "5",
+      "quantity": "1",
+      "description": "biryani is multi color rice servered with roast/fried/tandori chiken",
+      "thumbnail": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/bs9qgsy25pn07pzn6xx1"
+    },
+    {
+      "id": "7977",
+      "category": "Veg",
+      "restaurant": "Andhra gunpowder",
+      "name": "veg biryani",
+      "price": "199",
+      "ratings": "5",
+      "quantity": "1",
+      "description": "biryani is multi color rice servered with roast/fried/tandori chiken",
+      "thumbnail": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/bs9qgsy25pn07pzn6xx1"
+    },
+    {
+      "id": "a2cf",
+      "category": "non-veg",
+      "restaurant": "Andhra gunpowder",
+      "name": "chiken biryani",
+      "price": "199",
+      "ratings": "5",
+      "quantity": "1",
+      "description": "biryani is multi color rice servered with roast/fried/tandori chiken",
+      "thumbnail": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/bs9qgsy25pn07pzn6xx1"
+    },
+    {
+      "id": "1653",
+      "category": "non-veg",
+      "restaurant": "Andhra gunpowder",
+      "name": "egg biryani",
+      "price": "159",
+      "ratings": "5",
+      "quantity": "1",
+      "description": "biryani is multi color rice servered with roast/fried/tandori chiken",
+      "thumbnail": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/bs9qgsy25pn07pzn6xx1"
+    }
+  ]
+}

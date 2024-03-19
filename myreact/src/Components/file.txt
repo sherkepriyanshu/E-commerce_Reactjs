@@ -1,0 +1,68 @@
+function getdata()
+  {
+  axios.get('http://localhost:1000/Manager')
+    .then((res) => {
+      console.log("get called");
+      login(res.data);
+    })
+    .catch((err) => {
+      console.log("login invalid");
+    });
+
+  }
+
+  function login(data) {
+   console.log(data);
+   if (uname === "Admin" && password === "1234") {
+    let found = false;
+    for (let i = 0; i < data.length; i++) {
+      if (data[i].name === "priyanshu") {
+        found = true;
+        break;
+      }
+    }
+    if (found) {
+      console.alert("Admin Logged successfully. Name found in the data.");
+    } else {
+      console.alert("Admin login Failed. Name not found in the data.");
+    }
+  } else {
+    console.alert("Admin login Failed");
+  }
+  }
+
+
+
+ fetch('http://localhost:1000/Manager', {
+            method: 'POST',
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(adminData)
+        })
+            .then((res) => {
+                if (res.ok) {
+                    alert("Admin added successfully");
+                } else {
+                    alert("Failed to add admin");
+                }
+            })
+            .catch((err) => {
+                console.error("Error:", err);
+                alert("Failed to add admin");
+            });
+
+
+function getFetch()
+  {
+    fetch('http://localhost:1000/Manager',{method:'get',
+  headers:{"Content-Type":"Application/json"},
+body: JSON.parse(admindata)
+})
+
+.then((res) => {
+  console.log("succefully fetched");
+  console.log(res.data);
+})
+.catch((err) => {
+  console.log("failed to load");
+  alert("fetch failed");
+})

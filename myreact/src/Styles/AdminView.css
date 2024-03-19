@@ -1,0 +1,29 @@
+.displayproducts
+{
+    height: 300px;
+    width: 350px;
+    border: 2px solid black;
+    margin: 20px 0px;
+    border-radius: 4px;
+
+}
+
+.displayproducts img {
+    height: 200px;
+    width: 347px;
+    border-radius: 4px;
+
+}
+
+.adminviewpage{
+    justify-content: space-around;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 200px 200px 300px;
+}
+
+.resturant
+{
+    display: flex;
+    justify-content: space-between;
+}
